@@ -1,0 +1,30 @@
+# Clinical and generated data
+data/
+outputs/
+results/
+reports/
+*.dcm
+*.nii
+*.nii.gz
+*.csv
+*.jsonl
+*.parquet
+*.npz
+*.npy
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+weights/
+cache/
+
+# Local development
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
